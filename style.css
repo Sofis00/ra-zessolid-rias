@@ -1,0 +1,134 @@
+.quatro{
+    background-image: url(WhatsApp\ Image\ 2024-08-03\ at\ 02.17.24.jpeg);
+    background-size: cover;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.principal{
+    align-items: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 38px;
+    margin-bottom: 10px;
+    margin-left: 27px;
+    margin-right: 10px;
+    padding: 83px;
+}
+.principaltexto{
+    color: gray;
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 10px;
+    align-items: center;
+}
+.header{
+    display: flex;
+}
+.logo{
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.textao{
+    margin-top: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.textinho{
+    margin-top: 41px;
+    margin-left: -9px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.nossavisão{
+    display: flex;
+}
+.serviços{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 250px;
+}
+.contato{
+    display: flex;
+}
+.arvoreum{
+    width: 740px;
+    height: 766px;
+    margin: 20px;
+    margin-right: 75px;
+    border-radius: 20px;
+}
+.titulo{
+    font-size: 50px;
+    margin-left: 52px;
+
+}
+.texto{
+    font-size: 20px;
+    margin-top: -19px;
+    margin-left: 52px;
+    margin-bottom: 69px;
+}
+.lista{
+    font-size: 20px;
+    margin-top: -19px;
+    margin-left: 33px;
+    margin-bottom: 69px;
+}
+.negrito{
+    font-size: 24px;
+}
+.imagens{
+    width: 568px;
+    height: 568px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.tituloum{
+    font-size: 48px;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+.textoum{
+    font-size: 20px;
+    margin-top: -19px;
+    margin-left: 31px;
+    margin-bottom: 69px;
+}
+.dois{
+    margin-top: 50px;
+}
+.esquerdo{
+    margin-top: 10px;
+    margin-left: 56px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+}
+
+.direito{
+margin-top: 10px;
+margin-left: 500px;
+margin-right: 56px;
+margin-bottom: 10px;
+text-align: right;
+}
+.contato{
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+}
+input{
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border:solid 5px black ;
+}
