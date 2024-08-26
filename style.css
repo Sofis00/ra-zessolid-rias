@@ -1,113 +1,118 @@
-.quatro {
-    background-image: url(WhatsApp\ Image\ 2024-08-03\ at\ 02.17.24.jpeg);
-    background-size: cover;
-    height: 350px;
-    margin-top: 50px;
-    margin-bottom: 90px;
-}
-.textinho{
-    margin-top: 20px;
-}
-body{
-    display: flex;
-    flex-wrap: wrap;
+@media screen and (min-width: 1200px)  {
+    .quatro {
+        background-image: url(WhatsApp\ Image\ 2024-08-03\ at\ 02.17.24.jpeg);
+        background-size: cover;
+        height: 350px;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+    .textinho{
+        margin-top: 20px;
+    }
+    .principal {
+        align-items: center;
+        color: white;
+        font-size: 100px;
+        margin: 38px 10px 10px 27px;
+        padding: 83px;
+    }
+
+    .principaltexto {
+        color: gray;
+        font-size: 25px;
+        margin: 60px 10px 50px 30px;
+        align-items: center;
+    }
+
+    .header, .nossavisão, .serviços, .contato, .form {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .arvoreum {
+        width: 740px;
+        height: 766px;
+        margin: 20px 75px 20px 20px;
+        border-radius: 20px;
+    }
+
+    .titulo {
+        font-size: 50px;
+        margin-left: 52px;
+    }
+
+    .texto, .lista {
+        font-size: 20px;
+        margin: -19px 0 69px 52px;
+    }
+
+    .negrito {
+        font-size: 24px;
+    }
+
+    .imagens {
+        width: 568px;
+        height: 568px;
+        margin: 30px;
+        border-radius: 10px;
+    }
+
+    .tituloum {
+        font-size: 48px;
+        margin-left: 33px;
+        margin-top: 10px;
+    }
+
+    .textoum {
+        font-size: 20px;
+        margin: -19px 0 69px 31px;
+    }
+
+    .dois {
+        margin-top: 50px;
+    }
+
+    .esquerdo {
+        margin: 10px 500px 10px 56px;
+    }
+
+    .direito {
+        margin: 10px 56px 10px 500px;
+        text-align: right;
+    }
+
+    .contato {
+        margin-bottom: 50px;
+    }
+
+    .form {
+        display: flex;
+    }
+
+    input {
+    
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border: solid 5px black;
+    }
 }
 
-.principal {
-    align-items: center;
-    color: white;
-    font-size: 100px;
-    margin: 38px 10px 10px 27px;
-    padding: 83px;
-}
-
-.principaltexto {
-    color: gray;
-    font-size: 25px;
-    margin: 60px 10px 50px 30px;
-    align-items: center;
-}
-
-.header, .nossavisão, .serviços, .contato, .form {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.arvoreum {
-    width: 740px;
-    height: 766px;
-    margin: 20px 75px 20px 20px;
-    border-radius: 20px;
-}
-
-.titulo {
-    font-size: 50px;
-    margin-left: 52px;
-}
-
-.texto, .lista {
-    font-size: 20px;
-    margin: -19px 0 69px 52px;
-}
-
-.negrito {
-    font-size: 24px;
-}
-
-.imagens {
-    width: 568px;
-    height: 568px;
-    margin: 30px;
-    border-radius: 10px;
-}
-
-.tituloum {
-    font-size: 48px;
-    margin-left: 33px;
-    margin-top: 10px;
-}
-
-.textoum {
-    font-size: 20px;
-    margin: -19px 0 69px 31px;
-}
-
-.dois {
-    margin-top: 50px;
-}
-
-.esquerdo {
-    margin: 10px 500px 10px 56px;
-}
-
-.direito {
-    margin: 10px 56px 10px 500px;
-    text-align: right;
-}
-
-.contato {
-    margin-bottom: 50px;
-}
-
-.form {
-    display: flex;
-}
-
-input {
-    /* Adicione estilos para inputs aqui */
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    border: solid 5px black;
-}
-
-@media (min-width: 769px) and (max-width: 1199px) {
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+    .quatro {
+        background-image: url(WhatsApp\ Image\ 2024-08-03\ at\ 02.17.24.jpeg);
+        background-size: cover;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
     .principal {
         font-size: 80px;
         padding: 60px;
+        color: white;
     }
 
     .nossavisão {
@@ -120,13 +125,16 @@ form {
         margin: 40px auto 150px auto;
     }
 
-    .arvoreum {
-        width: 50%;
+    .arvoreum, .imagens {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 
     .imagens {
-        width: 48%;
+        width: 92%;
         height: auto;
+        border-radius: 10px;
     }
 
     .titulo {
@@ -142,41 +150,71 @@ form {
     }
 }
 
-@media (max-width: 768px) {
-    .principal {
+@media screen and (max-width: 768px) {
+        .quatro {
+            background-image: url(WhatsApp\ Image\ 2024-08-03\ at\ 02.17.24.jpeg);
+            background-size: cover;
+            height: auto;
+            margin-top: 50px;
+            margin-bottom: 90px;
+        } 
+        .principal {
         font-size: 60px;
         padding: 40px;
-    }
+        color: white;
+        }
 
-    .nossavisão, .serviços {
+        .nossavisao, .servicos {
         flex-wrap: wrap;
         justify-content: center;
+        }
+        .titulo {
+            font-size: 35px;
+        }
+    
+        .texto, .lista {
+            font-size: 18px;
+        }
+        .negrito {
+            font-size: 22px;
+            margin-right: 0;
+        }       
+        .titulo {
+            font-size: 35px;
+        }
+
+        .texto, .lista {
+            font-size: 18px;
+        }
+
+        .negrito {
+            font-size: 22px;
+        }
+        .imagens{
+            border-radius: 10px;
+        }
+        .arvoreum, .imagens {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    
     }
 
-    .arvoreum, .imagens {
-        width: 100%;
+
+@media screen and (max-width: 480px)  {
+    .quatro {
+        background-image: url(WhatsApp\ Image\ 2024-08-03\ at\ 02.17.24.jpeg);
+        background-size: cover;
         height: auto;
-        margin-right: 0;
-    }
-
-    .titulo {
-        font-size: 35px;
-    }
-
-    .texto, .lista {
-        font-size: 18px;
-    }
-
-    .negrito {
-        font-size: 22px;
-    }
-}
-
-
-@media (max-width: 480px) {
+        margin-top: 50px;
+        margin-bottom: 90px;
+        
+    } 
     .principal {
         font-size: 40px;
-        padding: 20px;
+        padding: 35px;
+        color: white;
     }
 
     .nossavisão, .serviços {
@@ -187,6 +225,7 @@ form {
     .arvoreum, .imagens {
         width: 100%;
         height: auto;
+        border-radius: 10px;
     }
 
     .titulo {
@@ -203,5 +242,8 @@ form {
 
     .esquerdo, .direito {
         margin: 10px;
+    }
+    .imagens{
+        border-radius: 10px;
     }
 }
